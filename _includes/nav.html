@@ -1,0 +1,11 @@
+<nav class="sidebar-nav">
+
+  {% for link in site.navigation %}
+    {% assign current = nil %}
+    {% if page.url == link.url %}
+      {% assign current = '-current' %}
+    {% endif %}
+    <a class="{{ current }}" href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a>
+  {% endfor %}
+
+</nav>

@@ -1,0 +1,28 @@
+# Site settings
+title: Flama’s Front End Toolkit
+email: contas@flama.me
+description: Tools and frameworks for developing front end at Flama
+baseurl: "/front-end-toolkit"
+url: "http://flama.is"
+twitter_username: studioflama
+github_username:  flama
+
+# Build settings
+markdown: kramdown
+permalink: /title
+
+sass:
+  sass_dir: assets/stylesheets/_sass
+
+# assets:
+#   sources:
+#     - assets/fonts
+#     - assets/javascripts
+
+collections:
+  contents:
+    output: true
+
+navigation:
+- text: Flama’s Front End Toolkit
+  url: /
