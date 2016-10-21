@@ -14,15 +14,6 @@ permalink: /title
 sass:
   sass_dir: assets/stylesheets/_sass
 
-# assets:
-#   sources:
-#     - assets/fonts
-#     - assets/javascripts
-
 collections:
   contents:
     output: true
-
-navigation:
-- text: Flama’s Front End Toolkit
-  url: /
