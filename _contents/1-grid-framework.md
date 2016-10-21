@@ -31,7 +31,7 @@ $columnWidthMobile: ( 100%/#{$nOfColumnsMobile} - #{$gutterMobile} )
 ```
 
 The Flama Grid Framework is easy to install and config. Is semantic and clean.
-If you want informations about how use it you can go to the [repository](https://github.com/flama).
+If you want informations about how use it you can go to the [repository](https://github.com/flama/grid-framework).
 
 ## Neat
 
