@@ -24,15 +24,19 @@ Bourbon is simple, lightweigh and definetly worth using. However you could repla
 Here are some example of Bourbon's mixins in use:
 
 ```scss
+.element {
   @include directional-property(border, width, 10px null 4px 3px);
+}
 ```
 
 Which outputs the following CSS:
 
 ```css
+.element { 
   border-top-width: 10px;
   border-bottom-width: 4px;
   border-left-width: 3px;
+}
 ```
 
 It also has handy prefixer mixins such as:
@@ -41,12 +45,18 @@ It also has handy prefixer mixins such as:
 @mixin box-sizing($box) {
   @include prefixer(box-sizing, $box, webkit moz spec);
 }
+
+.element {
+  @include box-sizing(border-box);
+}
 ```
 
 Which outputs the following CSS:
 
 ```css
--webkit-box-sizing: $box;
-   -moz-box-sizing: $box;
-        box-sizing: $box;
+.element {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 ```
