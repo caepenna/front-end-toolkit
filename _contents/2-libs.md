@@ -19,7 +19,7 @@ It can be installed as a gem if you are working on a rails project, and can easi
 
 Basically, Bourbon creates a file with mixins you can use on your project. You can check out all the mixins available on Bourbon on their [documentation page](http://bourbon.io/docs/).
 
-Bourbon is simple, lightweigh and definetly worth using. However you could replace Bourbon with a `mixins.scss` file if you don't want to rely on dependencies or just don't want to have it on your project.
+Bourbon is simple, lightweight and definitely worth using. However you could replace Bourbon with a `mixins.scss` file if you don't want to rely on dependencies or just don't want to have it on your project.
 
 Here are some example of Bourbon's mixins in use:
 
