@@ -5,12 +5,12 @@ permalink: /contents/libraries
 description: The libraries that we use
 ---
 
-## JQuery
+## jQuery
 
-JQuery is an open source JavaScript librabry designed to simplify HTML document traversing,
+[jQuery](http://jquery.com/) is an open source JavaScript librabry designed to simplify HTML document traversing,
 event handling, animating, and Ajax interactions. Its slogan is **"Write less, do more"**.
 
-Here are some advantages of using JQuery:
+Here are some advantages of using jQuery:
 
 - Is lightweight and easy to use;
 - Handles cross-browser issues;
@@ -34,9 +34,10 @@ Usage is simple. Like many other JS libs just require the lib file, query the el
 ```
 
 ## C3
-C3JS is a library to make charts, they are a excelent option to front end designers with little or no experience in JS. Is realy easy to install and use.
-It's possible just make simple graphics like bar charts, line charts, donut charts.
-The possibility of configuration is just for data values, colors and animations time.
+
+[C3.js](http://c3js.org/) is a library based on [D3.js](https://d3js.org/) to make simple charts, but simpler. An option to Front End Designers with little experience in JS to draw graphs using HTML, CSS and JavaScript.
+
+It's easy to make graphs like bar, line or donut charts. Configuration needed is just for data values, colors and time of animations.
 
 **Example:**
 
@@ -52,11 +53,11 @@ var chart = c3.generate({
 });
 ```
 
-If you need a big customisation C3 isn't recommended. In this case, will be better use D3JS, but this tool is more complex and require a good level of knowledge in javascript.
+Any other customization on how chart is draw we recommend to use D3.js, although it requires a medium JavaScript knowledge.
 
 ## Bourbon
 
-Bourbon is a mixin library usefull for saving time when setting most used mixins on your project.
+[Bourbon](http://neat.bourbon.io/) is a mixin library usefull for saving time when setting most used mixins on your project.
 
 It can be installed as a gem if you are working on a rails project, and can easily be installed via `$ gem install bourbon` if you are on a non-rails app.
 
